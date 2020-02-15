@@ -368,7 +368,7 @@ if exists('g:gruvbox_italicize_strings')
   endif
 endif
 
-let s:background = s.bg0
+let s:background = s:bg0
 if exists('g:gruvbox_transparent_bg')
   if g:gruvbox_transparent_bg == 1
     let s:background = s:none
